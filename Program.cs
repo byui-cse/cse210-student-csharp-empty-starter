@@ -1,14 +1,14 @@
 ﻿using System;
-
-namespace Cse210Starter
+using System.Collections.Generic;
+namespace jumper
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-
-            // Write your code here
+        static int Main(string[] args)
+        {   
+            Director director = new Director();
+            director.PlayGame();
+            return 0;
         }
     }
 }
